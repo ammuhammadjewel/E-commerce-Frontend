@@ -1,0 +1,46 @@
+/* styles/globals.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Include Daisy UI styles */
+@import 'daisyui/dist/full.css';
+
+
+.abc {
+  /*display: flex;
+  */position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.abc .btn {
+  margin: 5px;
+}
+
+.abc input {
+  margin: 10px;
+}
+
+.mailbtn:hover {
+  color: #000;
+} 
+
+.customnav {
+  position: relative;
+  z-index: 9999999;
+  margin-bottom: 20px;
+}
+.dropp {
+  margin: 0 8px;
+}
+
+.container {
+  width: 1100px;
+  margin-left: 70px;
+}
